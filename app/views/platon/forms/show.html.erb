@@ -1,0 +1,6 @@
+<form action="<%= @service.form_prop[:url] %>" method="<%= @service.form_prop[:method] %>">
+  <% @service.fields.map do |field| %>
+    <input type="<%= field[:type] %>" name="<%= field[:name] %>" value="<%= field[:value] %>">
+  <% end %>
+  <input type="submit" value="Pay">
+</form>

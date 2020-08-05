@@ -1,0 +1,19 @@
+options:
+  docker: true
+
+pipelines:
+  default:
+    - step:
+        name: install gems and run tests
+        image: eticket/eticket-ruby-base:2.3.1
+        caches:
+          - bundler
+        script:
+          - export RAILS_ENV=ci
+          - gem install bundler
+          - gem install bundler --no-ri --no-rdoc
+          - bundle install --path vendor/bundle
+          - bundle exec rspec spec
+definitions:
+  caches:
+    bundler: vendor/bundle
