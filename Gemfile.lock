@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    platon (0.1.0)
+    platon.ua (0.1.0)
       jbuilder (~> 2.6)
       rails (~> 5)
 
@@ -74,7 +74,7 @@ GEM
     multi_json (1.12.2)
     multipart-post (2.0.0)
     nio4r (2.5.8)
-    nokogiri (1.13.8)
+    nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pry (0.11.3)
@@ -152,7 +152,7 @@ DEPENDENCIES
   dotenv
   faraday
   jbuilder
-  platon!
+  platon.ua!
   pry
   rails-controller-testing
   rake (~> 13.0)
