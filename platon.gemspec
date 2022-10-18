@@ -5,7 +5,7 @@ require 'platon/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = 'platon'
+  spec.name        = 'platon.ua'
   spec.version     = Platon::VERSION
   spec.authors     = ['Mikhail Krainik']
   spec.email       = ['mikhail.krainik@gmail.com']
