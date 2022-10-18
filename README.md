@@ -1,4 +1,4 @@
-# Platon
+# Platon [![Ruby Gem](https://github.com/mikhail-krainik/platon/actions/workflows/gem-push.yml/badge.svg)](https://github.com/mikhail-krainik/platon/actions/workflows/gem-push.yml)
 Gateway for Platon processing center
 (https://platon.ua/)
 
